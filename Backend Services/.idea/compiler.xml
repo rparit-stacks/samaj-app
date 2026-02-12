@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="UserService" />
+        <module name="Gateway" />
+        <module name="Auth" />
+        <module name="News" />
+        <module name="all-services" />
+        <module name="CloudService" />
+        <module name="Emergency" />
+        <module name="community" />
+        <module name="Notification" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CloudServices" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Auth" options="-parameters" />
+      <module name="CloudService" options="-parameters" />
+      <module name="CloudServices" options="-parameters" />
+      <module name="Emergency" options="-parameters" />
+      <module name="Gateway" options="-parameters" />
+      <module name="News" options="-parameters" />
+      <module name="Notification" options="-parameters" />
+      <module name="UserService" options="-parameters" />
+      <module name="all-services" options="-parameters" />
+      <module name="community" options="-parameters" />
+    </option>
+  </component>
+</project>
